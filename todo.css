@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.heading {
+    color: #333;
+}
+
+.centered {
+    margin-top: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#task-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.individual-task {
+    margin-top: 10px;
+}
+
+.individual-task p {
+    display: inline-block;
+    margin-right: 10px;
+}

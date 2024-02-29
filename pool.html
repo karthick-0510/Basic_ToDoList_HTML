@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <script type="text/javascript" src="js.js"></script>
+    <title>Wolverine</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">ToDo List</h1>
+        <div class="centered">
+            <label for="taskinput">Enter the task</label>
+            <input id="taskinput" type="text">
+            <button onclick="AddTask()">Add task</button>
+        </div>
+    </div>
+    <div id="task-container">
+        <div class="individual-task">
+            <p>Task 1</p>
+            <button onclick="DelTask(event)">Delete</button>
+        </div>
+    </div>
+</body>
+</html>
